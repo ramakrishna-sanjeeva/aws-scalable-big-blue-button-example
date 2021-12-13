@@ -312,7 +312,6 @@ Resources:
   BBBScaleliteExecutionRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: BBBScaleliteExecutionRole
       AssumeRolePolicyDocument:
         Statement:
           - Effect: Allow
@@ -348,7 +347,6 @@ Resources:
   BBBGreenlightTaskExecutionRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: BBBGreenlightExecutionRole
       AssumeRolePolicyDocument:
         Statement:
           - Effect: Allow
