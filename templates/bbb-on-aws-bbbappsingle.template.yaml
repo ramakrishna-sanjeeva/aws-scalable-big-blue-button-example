@@ -182,7 +182,6 @@ Resources:
   BBBApplicationEC2Role:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: BBBApplicationEC2Role
       AssumeRolePolicyDocument:
         Statement:
           - Effect: Allow
